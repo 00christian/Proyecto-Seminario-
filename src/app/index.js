@@ -1,0 +1,2 @@
+alert('React va aqui');
+
