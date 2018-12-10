@@ -17,6 +17,7 @@ app.use(express.json());
 app.use('/api/task', require('./routes/task.routes'));
 
 //archivos staticos 
+
 //app.use
 app.use(express.static( path.join(__dirname, 'public')));
 
